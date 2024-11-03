@@ -31,3 +31,23 @@ body {
 .job-form {
     padding: 1rem;
 }
+
+/* src/styles.css */
+
+.profile-section {
+    padding: 1rem;
+}
+
+.profile-section textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0.5rem;
+}
+
+.profile-section button {
+    padding: 0.5rem 1rem;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
