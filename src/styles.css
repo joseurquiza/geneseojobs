@@ -1,0 +1,33 @@
+/* src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007acc;
+    color: white;
+}
+
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.job-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 300px;
+}
+
+.job-form {
+    padding: 1rem;
+}
